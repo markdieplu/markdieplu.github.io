@@ -1,6 +1,11 @@
 body {font-family: "Tahoma", sans-serif;}
 
-.main {
+.aboutme {
+  margin-left: 200px;
+  padding-top: 14px;
+  padding-left: 10px;
+}
+.projects {
   margin-left: 200px;
   padding-top: 14px;
   padding-left: 10px;
