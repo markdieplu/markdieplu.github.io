@@ -1,5 +1,5 @@
 # markdieplu.github.io
-to learning basic html & css
+learning basic html & css
 
 # things to do:<br>
 -icons for links<br>
