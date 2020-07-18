@@ -27,7 +27,15 @@ body {font-family: "Tahoma", sans-serif;}
 .sidebar h1{
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+}
+
+sidebar p{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
   color: #818181;
   display: block;
 }
