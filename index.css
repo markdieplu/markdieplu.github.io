@@ -27,7 +27,7 @@ body {font-family: "Tahoma", sans-serif;}
 .sidebar h1{
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
   color: #818181;
   display: block;
 }
@@ -42,5 +42,5 @@ sidebar p{
 
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
+  .sidebar a {font-size: 15px;}
 }
