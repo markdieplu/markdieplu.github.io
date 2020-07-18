@@ -29,7 +29,7 @@ body {font-family: "Tahoma", sans-serif;}
   padding: 6px 0px 0px 0px;
   text-decoration: none;
   font-size: 16px;
-  color: #818181;
+  color: #909090;
   display: block;
 }
 
@@ -37,7 +37,7 @@ body {font-family: "Tahoma", sans-serif;}
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 24px;
-  color: #FFFFFF;
+  color: #f1f1f1;
   display: block;
 }
 .sidebar h2 {
