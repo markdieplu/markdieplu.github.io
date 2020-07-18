@@ -34,14 +34,14 @@ body {font-family: "Tahoma", sans-serif;}
 }
 
 .sidebar h1 {
-  padding: 6px 8px 6px 13px;
+  padding: 6px 8px 5px 13px;
   text-decoration: none;
   font-size: 24px;
   color: #f1f1f1;
   display: block;
 }
 .sidebar h2 {
-  padding: 6px 8px 6px 13px;
+  padding: 6px 8px 5px 13px;
   text-decoration: none;
   font-size: 20px;
   color: #f1f1f1;
