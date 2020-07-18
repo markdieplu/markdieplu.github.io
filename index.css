@@ -22,7 +22,7 @@ body {font-family: "Tahoma", sans-serif;}
 .sidebar a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
   color: #818181;
   display: block;
 }
@@ -38,12 +38,7 @@ body {font-family: "Tahoma", sans-serif;}
 .sidebar p {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
   color: #818181;
   display: block;
-}
-
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 15px;}
 }
