@@ -7,7 +7,7 @@ body {font-family: "Tahoma", sans-serif;}
 }
 .projects {
   margin-left: 200px;
-  padding-left: 13px;
+  padding-left: 11px;
 }
 
 .sidebar {
@@ -17,7 +17,7 @@ body {font-family: "Tahoma", sans-serif;}
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #111111;
   overflow-x: hidden;
   padding-top: 16px;
 }
@@ -30,7 +30,7 @@ body {font-family: "Tahoma", sans-serif;}
   text-decoration: none;
   font-size: 16px;
   color: #909090;
-  display: block;
+  display: inline;
 }
 
 .sidebar h1 {
