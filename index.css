@@ -10,6 +10,7 @@ body {font-family: "Tahoma", sans-serif;}
   padding-left: 11px;
 }
 
+
 .sidebar {
   height: 100%;
   width: 200px;
@@ -25,6 +26,9 @@ body {font-family: "Tahoma", sans-serif;}
   filter: invert(100%);
   -webkit-filter: invert(100%);
 }
+.sidebar p:hover {
+  color: #909090;
+}
 
 .sidebar a {
   padding: 3px 0px 0px 0px;
@@ -33,22 +37,20 @@ body {font-family: "Tahoma", sans-serif;}
   color: #909090;
   display: inline;
 }
-
 .sidebar h1 {
   padding: 6px 8px 5px 13px;
   text-decoration: none;
   font-size: 24px;
-  color: #f1f1f1;
+  color: #FFFFFF;
   display: block;
 }
 .sidebar h2 {
   padding: 6px 8px 5px 13px;
   text-decoration: none;
   font-size: 20px;
-  color: #f1f1f1;
+  color: #FFFFFF;
   display: block;
 }
-
 .sidebar p {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
