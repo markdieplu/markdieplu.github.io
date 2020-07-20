@@ -10,6 +10,9 @@ body {font-family: "Tahoma", sans-serif;}
   padding-left: 11px;
 }
 
+hr.solid {
+  border-top: 3px solid #111111;
+}
 
 .sidebar {
   height: 100%;
