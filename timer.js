@@ -25,7 +25,7 @@ function createTimer() {
     numbersArea.style.transform = `translateY(-${offset}px)`
 
     // what happens when countdown is done
-    if (count >= 3000) {
+    if (count >= 10) {
       // go to the next episode
       clearInterval(interval);
     }
