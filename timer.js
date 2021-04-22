@@ -14,7 +14,7 @@ function startTimer() {
     }
     if (seconds === 0) {
     	document.getElementById("myBtn").disabled = true;
-      alert('sorry, out of time');
+      alert('You made it!');
       clearInterval(seconds);
     }
   }, 1000);
