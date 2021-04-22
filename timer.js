@@ -1,32 +1,33 @@
-(function () {
-  const second = 1000,
-        minute = second * 60,
-        hour = minute * 60,
+const countdownArea = document.querySelector('.countdown');
+const numbersArea = document.querySelector('.numbers');
+const resetBtn = document.querySelector('.reset');
+let interval;
+let count = 0;
+const height = countdownArea.getBoundingClientRect().height;
 
-  let birthday = "Sep 30, 2021 00:00:00",
-      countDown = new Date(birthday).getTime(),
-      x = setInterval(function() {
+// start the timer when page loads
+createTimer();
 
-        let now = new Date().getTime(),
-            distance = countDown - now;
+// recreate the timer when reset is clicked
+resetBtn.addEventListener('click', createTimer);
 
-        document.getElementById("days").innerText = Math.floor(distance / (day)),
-          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+// create the interval that creates the timer
+function createTimer() {
+  clearInterval(interval);
+  count = 0;
+  numbersArea.style.transform = 'translateY(0)'
 
-        //do something later when date is reached
-        if (distance < 0) {
-          let headline = document.getElementById("headline"),
-              countdown = document.getElementById("countdown"),
-              content = document.getElementById("content");
+  interval = setInterval(() => {
+    count++;
 
-          headline.innerText = "whew~ o-o";
-          countdown.style.display = "none";
-          content.style.display = "block";
+    // calculate the offset and apply it
+    const offset = height * count;
+    numbersArea.style.transform = `translateY(-${offset}px)`
 
-          clearInterval(x);
-        }
-        //seconds
-      }, 0)
-  }());
+    // what happens when countdown is done
+    if (count >= 3000) {
+      // go to the next episode
+      clearInterval(interval);
+    }
+  }, 1000);
+}
